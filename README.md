@@ -40,4 +40,21 @@ Before running the script, you may need to modify a few configuration settings i
 
 Replace the secret key with your own secure value:
 ```python
-SECRET_KEY = "Epicor12345!"  # Replace with your secure secret key.
+SECRET_KEY = "Password123!"  # Replace with your secure secret key.
+
+
+---
+
+## Additional Notes
+
+- **Environment Changes:**  
+  In a new environment, remember to update the following:
+  - The `SECRET_KEY` to your new secure value.
+  - The `SQL_CONNECTION_STRING` to match your new SQL Server instance and database.
+  - The database update query if your table structure is different.
+- **Running the Script:**  
+  Simply run `python Generate_JWT.py` after making these changes.
+
+You can copy the above README content into a file named `README.md` in your project’s root directory, and then commit it to your GitHub repository.
+
+Let me know if you need further assistance or additional documentation!
