@@ -51,8 +51,4 @@ SECRET_KEY = "Password123!"  # Replace with your secure secret key.
   - The `SQL_CONNECTION_STRING` to match your new SQL Server instance and database.
   - The database update query if your table structure is different.
 - **Running the Script:**  
-  Simply run `python Generate_JWT.py` after making these changes.
-
-You can copy the above README content into a file named `README.md` in your project’s root directory, and then commit it to your GitHub repository.
-
-Let me know if you need further assistance or additional documentation!
+  Run `python Generate_JWT.py` after making these changes.
