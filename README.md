@@ -41,9 +41,7 @@ Before running the script, you may need to modify a few configuration settings i
 Replace the secret key with your own secure value:
 ```python
 SECRET_KEY = "Password123!"  # Replace with your secure secret key.
-
-
----
+```
 
 ## Additional Notes
 
